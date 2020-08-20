@@ -1,0 +1,261 @@
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+hr
+{
+  border-color: #e5e5e5;
+  border-width: 2px;
+  width: 20%;
+  margin: 30px auto;
+  display: none;
+}
+
+/* h1 Properties */
+
+h1:before,
+h1:after {
+  background-color: white;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 5%;
+}
+
+h1:before {
+  right: 0.5rem;
+  margin-left: -50%;
+}
+
+h1:after {
+  left: 0.5rem;
+  margin-right: -50%;
+}
+
+/* h2 Properties */
+
+h2:before,
+h2:after {
+  background-color: black;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 5%;
+}
+
+h2:before {
+  right: 0.5rem;
+  margin-left: -50%;
+}
+
+h2:after {
+  left: 0.5rem;
+  margin-right: -50%;
+}
+
+/* Containers */
+#title .title-container
+{
+  padding: 23% 0;
+}
+
+.title-container
+{
+  text-align: center;
+  min-height: 0;
+  background: url("titlePicture.jpg") no-repeat;
+  background-size: cover;
+  background-color: transparent;
+}
+
+.aboutme-container
+{
+  padding-top: 100px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.achievements-container
+{
+  text-align: center;
+}
+
+/* Navbar */
+
+.nav-item
+{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Title */
+
+#title-heading-p
+{
+  color: white;
+  font-family: 'Antic Slab', serif;
+  font-size: 1.5rem;
+}
+
+#title-headingh1 {
+  color: white;
+  font-family: 'Antic Slab', serif;
+  font-size: 3.5rem;
+}
+
+.subtitles
+{
+  font-family: 'Antic Slab', serif;
+  font-size: 2.0rem;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+
+
+
+/* About Me */
+
+.About
+{
+  text-align: center;
+  color: #8f8f8f;
+  width: 40%;
+  margin-left: 30%;
+  font-size: 1.2rem;
+}
+
+/* Achievements */
+
+.achievements-img
+{
+  border-radius: 10%;
+  margin-left: 350px;
+  margin-top: 50px;
+  width: 45%;
+}
+
+.achievements-text
+{
+  text-align: left;
+  padding-right: 450px;
+  padding-top: 40px;
+  color: #52575d;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.achievements-title
+{
+  color: #527318;
+  font-size: 1.5rem;
+}
+
+.achievements-title:hover
+{
+  color: #527318;
+}
+
+/* Footer */
+
+#footer
+{
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 1%;
+}
+
+#footer-text
+{
+  margin-top: 50px;
+}
+
+
+
+/*   MEDIA   */
+
+@media screen and (max-width: 896px)
+{
+
+  hr
+  {
+    display: block;
+  }
+
+  /* ABOUT */
+
+  .About
+  {
+    text-align: center;
+    margin-top: 40px;
+    width: 85%;
+    margin-left: 7%;
+    font-size: 1.2rem;
+  }
+
+  /* TITLE */
+
+  #title-heading-p
+  {
+    color: white;
+    font-family: 'Antic Slab', serif;
+    font-size: 1rem;
+  }
+
+  #title-headingh1
+  {
+    color: white;
+    font-family: 'Antic Slab', serif;
+    font-size: 2.5rem;
+  }
+
+  .subtitles
+  {
+    padding-bottom: 40px;
+  }
+
+  /* ACHIEVEMENTS */
+
+  .achievements-img
+  {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .achievements-text
+  {
+    text-align: center;
+    padding: 40px 90px;
+  }
+}
+
+
+@media screen and (max-width: 1280px)
+{
+
+  /* ACHIEVEMENTS */
+
+  .achievements-img
+  {
+    margin-left: 0px;
+    margin-top: 60px;
+    width: 350px;
+  }
+
+  .achievements-text
+  {
+    padding: 40px 90px;
+  }
+
+  .achievements-title
+  {
+    color: #527318;
+    font-size: 1.7rem;
+  }
+}
